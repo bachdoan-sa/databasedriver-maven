@@ -1,2 +1,8 @@
+org\teamswt301\dirverdatabasedata\dto\ClothesDTO.class
 org\teamswt301\dirverdatabasedata\dbutils\DBUtils.class
+org\teamswt301\dirverdatabasedata\dao\AccessoryDAO.class
+org\teamswt301\dirverdatabasedata\dto\CharacterDTO.class
+org\teamswt301\dirverdatabasedata\dao\CharacterDAO.class
+org\teamswt301\dirverdatabasedata\dao\ClothesDAO.class
+org\teamswt301\dirverdatabasedata\dto\AccessoryDTO.class
 org\teamswt301\dirverdatabasedata\main\Main.class

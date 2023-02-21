@@ -9,17 +9,19 @@ package org.teamswt301.dirverdatabasedata.dto;
  * @author AN515-57
  */
 public class CharacterDTO {
-    private String characterID;
+    private int characterID;
     private String characterName;
     private String description;
 
-    public String getCharacterID() {
+    public int getCharacterID() {
         return characterID;
     }
 
-    public void setCharacterID(String characterID) {
+    public void setCharacterID(int characterID) {
         this.characterID = characterID;
     }
+
+    
 
     public String getCharacterName() {
         return characterName;
@@ -40,7 +42,7 @@ public class CharacterDTO {
     public CharacterDTO() {
     }
     
-    public CharacterDTO(String characterID, String characterName, String description) {
+    public CharacterDTO(int characterID, String characterName, String description) {
         this.characterID = characterID;
         this.characterName = characterName;
         this.description = description;

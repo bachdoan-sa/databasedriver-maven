@@ -5,23 +5,15 @@
 package org.teamswt301.dirverdatabasedata.dbutils;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.sql.DataSource;
 
-/**
- *
- * @author AN515-57
- */
+
 public class DBUtils {
-    public static Connection getConnectionToDatabase() throws NamingException, SQLException {
-        Connection conn = null;
-        Context context = new InitialContext();
-        Context end = (Context) context.lookup("java:comp/env");
-        DataSource ds = (DataSource) end.lookup("DBCon");
-        conn = ds.getConnection();
+    public static Connection getConnection() throws ClassNotFoundException, SQLException{
+        Connection conn=null;
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=MyWardrobe;encrypt=true;trustServerCertificate=true;","sa","12345");
         return conn;
     }
 }
