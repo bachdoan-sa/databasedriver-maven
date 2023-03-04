@@ -9,5 +9,5 @@
 ### Screenshots
 ![source_code_junit]()
 
-### Connect me via superminervip@gmail.com
-#### Copyright &#169; 2023 motngaynanglen
+### Connect me via bach.doansyp@gmail.com
+#### Copyright &#169; 2023 bachdoan
