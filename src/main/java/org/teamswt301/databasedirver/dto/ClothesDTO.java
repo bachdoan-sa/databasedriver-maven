@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.teamswt301.dirverdatabasedata.dto;
+package org.teamswt301.databasedirver.dto;
 
 /**
  *
@@ -74,6 +74,11 @@ public class ClothesDTO {
         this.size = size;
         this.description = description;
         this.clothesNote = clothesNote;
+    }
+
+    @Override
+    public String toString() {
+        return "ClothesDTO{" + "clothesID=" + clothesID + ", clothesName=" + clothesName + ", characterID=" + characterID + ", size=" + size + ", description=" + description + ", clothesNote=" + clothesNote + '}';
     }
     
 }

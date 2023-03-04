@@ -5,7 +5,7 @@
 package org.teamswt301.dirverdatabasedata.dao.test;
 
 import org.junit.jupiter.api.Test;
-import org.teamswt301.dirverdatabasedata.dao.CharacterDAO;
+import org.teamswt301.databasedirver.dao.CharacterDAO;
 
 /**
  *

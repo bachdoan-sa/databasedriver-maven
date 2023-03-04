@@ -2,12 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package org.teamswt301.dirverdatabasedata.dao;
+package org.teamswt301.databasedriver.core;
+
+import org.teamswt301.databasedirver.dao.CharacterDAO;
 
 /**
  *
  * @author AN515-57
  */
-public class AccessoryDAO {
+public class ClothesCRUD {
+
+    
+
     
 }
