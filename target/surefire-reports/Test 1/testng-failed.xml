@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="instances" name="Failed suite [Test 1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="instances" name="DAO(failed)" verbose="0">
+    <classes>
+      <class name="org.teamswt301.dirverdatabasedata.dao.test.DAOTesting">
+        <methods>
+          <include name="testGetListCharacterDAO"/>
+        </methods>
+      </class> <!-- org.teamswt301.dirverdatabasedata.dao.test.DAOTesting -->
+    </classes>
+  </test> <!-- DAO(failed) -->
+  <test thread-count="4" parallel="instances" name="CRUDTest(failed)" verbose="0">
+    <classes>
+      <class name="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest">
+        <methods>
+          <include name="getListCharacterGivenSearch"/>
+          <include name="testFunctionGetListCharacterDAOWithDataFromDAO" invocation-numbers="1 2 3 4 5"/>
+        </methods>
+      </class> <!-- org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest -->
+    </classes>
+  </test> <!-- CRUDTest(failed) -->
+  <test thread-count="4" parallel="instances" name="CRUDTest Exception(failed)" verbose="0">
+    <classes>
+      <class name="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest">
+        <methods>
+          <include name="testCreateCharacterWithValues3"/>
+        </methods>
+      </class> <!-- org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest -->
+    </classes>
+  </test> <!-- CRUDTest Exception(failed) -->
+</suite> <!-- Failed suite [Test 1] -->

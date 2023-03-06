@@ -30,14 +30,52 @@ public class CharacterCRUD {
         }
     }
 
-    public static boolean createCharacter() throws SQLException, IllegalArgumentException {
-        System.out.printf("%-10s","Enter ID:");
-        int ID = Integer.parseInt(sc.nextLine());
-        System.out.printf("%-10s","Character Name:");
+    public static void createCharacter() {
+
+        System.out.printf("%-10s", "Enter ID:");
+        String ID = sc.nextLine();
+        System.out.printf("%-10s", "Character Name:");
         String name = sc.nextLine();
-        System.out.printf("%-10s","Anime name:");
+        System.out.printf("%-10s", "Anime name:");
         String decription = sc.nextLine();
-        chardao.createCharacters(new CharacterDTO(ID, name, decription));
-        return true;
+
+        createCharacterWithValues(ID, name, decription);
+
+    }
+
+    public static boolean createCharacterWithValues(String string_ID, String name, String desc) {
+        int id;
+        boolean check = false;
+        try {
+            id = Integer.parseInt(string_ID);
+        } catch (NumberFormatException e) {
+            throw new NumberFormatException("Invalid id, id must be a number");
+        }
+
+        try {
+            check = chardao.createCharacters(new CharacterDTO(id, name, desc));
+        } catch (SQLException e) {
+
+        }
+        return check;
+    }
+
+    public static boolean deleteCharacterWithID(String ID) {
+        boolean check = false;
+        try {
+            check = chardao.deleteUser(ID);
+        } catch (SQLException e) {
+
+        }
+        return check;
+    }
+
+    public static void deleteCharacter() {
+        System.out.printf("%-10s", "Enter ID:");
+        String ID = sc.nextLine();
+        if(deleteCharacterWithID(ID))
+            System.err.println("Delete Success");
+        else
+            System.err.println("Delete Fail");
     }
 }

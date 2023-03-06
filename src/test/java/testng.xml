@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suits>
+    
+    <suite name = "Test 1" parallel="instances" thread-count="4">
+        <!-- This is the data for example -->
+        <test name = "Example: DDT work with testng.xml">
+            <parameter name = "myActualName" value="manisha"/>
+            <parameter name = "myExpectedName" value="manisha"/>
+            <classes>
+                <class name = "org.teamswt301.dirverdatabasedata.dao.test.ExamParametersTest" />
+            </classes>
+        </test>  
+        <test name = "Search Elysia">
+            <parameter name = "Elysia_id" value="3"/>
+            <parameter name = "Elysia_name" value="Elysia"/>
+            <parameter name = "Elysia_desc" value="Honkai Impact 3rd"/>
+        
+            <classes>
+                <class name = "org.teamswt301.dirverdatabasedata.dao.test.TestCRUDFunctionOnCharacterDatabase" />
+            </classes>
+        </test>
+        <test name = "DAO">
+            <classes>
+                <class name = "org.teamswt301.dirverdatabasedata.dao.test.DAOTesting" />
+            </classes>
+        </test>
+        <test name = "CRUDTest">
+            <classes>
+                <class name = "org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest" />
+            </classes>
+        </test>
+        <test name = "CRUDTest Exception">
+            <classes>
+                <class name = "org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" />
+            </classes>
+        </test>
+    </suite>
+    
+</suits>

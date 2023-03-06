@@ -1,8 +1,10 @@
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dto\AccessoryDTO.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dto\CharacterDTO.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dto\ClothesDTO.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dao\CharacterDAO.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dbutils\DBUtils.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\main\Main.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dao\ClothesDAO.java
-C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\SWT\driverdatabasedata-maven\src\main\java\org\teamswt301\dirverdatabasedata\dao\AccessoryDAO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dto\ClothesDTO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dbutils\DBUtils.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dto\AccessoryDTO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dto\CharacterDTO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dao\ClothesDAO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedriver\core\ClothesCRUD.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\main\Main.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedriver\core\CharacterCRUD.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dao\AccessoryDAO.java
+C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\src\main\java\org\teamswt301\databasedirver\dao\CharacterDAO.java

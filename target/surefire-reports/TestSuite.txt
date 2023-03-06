@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 1.379 s <<< FAILURE! - in TestSuite
+testGetListCharacterDAO(org.teamswt301.dirverdatabasedata.dao.test.DAOTesting)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: expected [6] but found [7]
+	at org.teamswt301.dirverdatabasedata.dao.test.DAOTesting.testGetListCharacterDAO(DAOTesting.java:40)
+
+testFunctionGetListCharacterDAOWithDataFromDAO(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [123]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest.testFunctionGetListCharacterDAOWithDataFromDAO(CharacterCRUDTest.java:44)
+
+testFunctionGetListCharacterDAOWithDataFromDAO(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [2]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest.testFunctionGetListCharacterDAOWithDataFromDAO(CharacterCRUDTest.java:44)
+
+testFunctionGetListCharacterDAOWithDataFromDAO(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [4] but found [3]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest.testFunctionGetListCharacterDAOWithDataFromDAO(CharacterCRUDTest.java:44)
+
+testFunctionGetListCharacterDAOWithDataFromDAO(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [5] but found [4]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest.testFunctionGetListCharacterDAOWithDataFromDAO(CharacterCRUDTest.java:44)
+
+testFunctionGetListCharacterDAOWithDataFromDAO(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [6] but found [5]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDTest.testFunctionGetListCharacterDAOWithDataFromDAO(CharacterCRUDTest.java:44)
+
+testCreateCharacterWithValues3(org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest.testCreateCharacterWithValues3(CharacterCRUDNGTest.java:55)
+

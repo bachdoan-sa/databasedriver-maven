@@ -20,13 +20,13 @@ public class Main {
         
         
         do {
-            System.out.println(mainMenu());
+            System.err.println(mainMenu());
             String line = new Scanner(System.in).nextLine();
             int number = Integer.parseInt(line);
             switch (number) {
                 case 1 -> CharacterCRUD.showListInConsole();
                 case 2 -> CharacterCRUD.createCharacter();
-
+                case 3 -> CharacterCRUD.deleteCharacter();
             }
             if (number == 0) {
                 break;
@@ -47,12 +47,12 @@ public class Main {
                             +%-64s+
                             """,
                 "---------------------------Main_Menu----------------------------",
-                " Show information all students have been injected",
-                " Add student's vaccine injection information",
-                " Updating information of students' for second injection",
-                " Delete student vaccine injection information",
-                " Search for injection information by studentID ",
-                " nothing here, wait to update           ",
+                " Show all character",
+                " Create a new character",
+                " Delete a character by ID",
+                " nothing here, wait to update",
+                " nothing here, wait to update",
+                " nothing here, wait to update",
                 "----------------------------------------------------------------"
         );
     }

@@ -104,7 +104,7 @@ public class CharacterDAO {
     }
     
     //still working
-    private static final String DELETE_CHARACTER = " ";
+    private static final String DELETE_CHARACTER = "DELETE FROM Character WHERE characterID = ?;";
     public boolean deleteUser(String characterID) throws SQLException {
         boolean check = false;
         Connection conn = null;
@@ -115,7 +115,10 @@ public class CharacterDAO {
                 ptm = conn.prepareStatement(DELETE_CHARACTER);
                 ptm.setString(1, characterID);
                 int value = ptm.executeUpdate();
-                check = value > 0;
+                if(check = value > 0)
+                    check = true;
+                else
+                    System.err.print("Can not delete as it not exist!");
             }
         } catch (Exception e) {
             e.printStackTrace();

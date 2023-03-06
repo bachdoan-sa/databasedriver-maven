@@ -1,1 +1,5 @@
-org\teamswt301\dirverdatabasedata\dao\test\CharacterTesting.class
+org\teamswt301\dirverdatabasedata\dao\test\TestCRUDFunctionOnCharacterDatabase.class
+org\teamswt301\dirverdatabasedata\dao\test\ExamParametersTest.class
+org\teamswt301\dirverdatabasedata\dao\test\CharacterCRUDNGTest.class
+org\teamswt301\dirverdatabasedata\dao\test\CharacterCRUDTest.class
+org\teamswt301\dirverdatabasedata\dao\test\DAOTesting.class
