@@ -61,21 +61,22 @@ public class CharacterCRUD {
     }
 
     public static boolean deleteCharacterWithID(String ID) {
-        boolean check = false;
-        try {
-            check = chardao.deleteUser(ID);
-        } catch (SQLException e) {
 
+        try {
+            chardao.deleteUser(ID);
+        } catch (SQLException e) {
+            return false;
         }
-        return check;
+        return true;
     }
 
     public static void deleteCharacter() {
         System.out.printf("%-10s", "Enter ID:");
         String ID = sc.nextLine();
-        if(deleteCharacterWithID(ID))
+        if (deleteCharacterWithID(ID)) {
             System.err.println("Delete Success");
-        else
+        } else {
             System.err.println("Delete Fail");
+        }
     }
 }

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="53.623" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.854" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="jpda.address" value="64014"/>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -10,13 +9,13 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="forkMode" value="once"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\AN515-57\AppData\Local\Temp\surefire3588449680141977774\surefirebooter15132253177903962117.jar C:\Users\AN515-57\AppData\Local\Temp\surefire3588449680141977774 2023-03-06T23-02-20_138-jvmRun1 surefire4466548841023241900tmp surefire_06916054641023776085tmp"/>
+    <property name="sun.java.command" value="C:\Users\AN515-57\AppData\Local\Temp\surefire14457464172730509225\surefirebooter11404474537086214545.jar C:\Users\AN515-57\AppData\Local\Temp\surefire14457464172730509225 2023-03-06T23-10-45_017-jvmRun1 surefire11183258191419470891tmp surefire_017812540367795080370tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest"/>
     <property name="surefire.test.class.path" value="C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\target\test-classes;C:\Users\AN515-57\OneDrive\Desktop\FPT Studying\Java Language Project\after-semester-5\databasedriver-maven\target\classes;C:\Users\AN515-57\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.2.0.jre11\mssql-jdbc-12.2.0.jre11.jar;C:\Users\AN515-57\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\AN515-57\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\AN515-57\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\AN515-57\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
@@ -32,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\AN515-57\AppData\Local\Temp\surefire3588449680141977774\surefirebooter15132253177903962117.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\AN515-57\AppData\Local\Temp\surefire14457464172730509225\surefirebooter11404474537086214545.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -43,7 +42,6 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="jpda.listen" value="true"/>
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-16\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\AN515-57\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -61,16 +59,9 @@
     <property name="java.vm.version" value="19.0.1+10-21"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
-    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=64014"/>
   </properties>
-  <testcase name="testCreateCharacterWithValues1" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.018"/>
+  <testcase name="testCreateCharacterWithValues1" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.006"/>
   <testcase name="testCreateCharacterWithValues2" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0"/>
-  <testcase name="testCreateCharacterWithValues3" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.41"/>
-  <testcase name="testDeleteCharacterWithGivenRightArgumentReturnWell" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="9.437"/>
-  <testcase name="testDeleteCharacterWithGivenRightArgumentReturnWell" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="52.651">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest.testDeleteCharacterWithGivenRightArgumentReturnWell(CharacterCRUDNGTest.java:69)
-</failure>
-    <system-err><![CDATA[Can not delete as it not exist!]]></system-err>
-  </testcase>
+  <testcase name="testCreateCharacterWithValues3" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.323"/>
+  <testcase name="testDeleteCharacterWithGivenRightArgumentReturnWell" classname="org.teamswt301.dirverdatabasedata.dao.test.CharacterCRUDNGTest" time="0.035"/>
 </testsuite>

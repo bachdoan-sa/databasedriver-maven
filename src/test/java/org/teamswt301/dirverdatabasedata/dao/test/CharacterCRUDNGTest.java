@@ -65,7 +65,7 @@ public class CharacterCRUDNGTest {
     @AfterTest(groups = "Create Character")
     @Test(groups = "Delete Character")
     public void testDeleteCharacterWithGivenRightArgumentReturnWell(){
-        
+         
         assertEquals(CharacterCRUD.deleteCharacterWithID("123"), true);
     }
 }
